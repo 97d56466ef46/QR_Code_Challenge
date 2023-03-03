@@ -5,19 +5,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center
-    box-sizing: border-box;
-     border-radius:10px;
-    margin:85px auto;
-    width: 320px;
-    height: 497px;
+    align-items: center;
+    border-radius:10px;
+    margin:9.5rem auto;
+    width: 20rem;
+    height: 32rem;
     background-color: white;
 }
 .qrcode{
-   margin:16px 16px 0;
-  width: 288px;
-  height: 228px;
-  border-radius:  10px;
+   margin:1rem 1rem 0;
+  width: 18rem;
+  height: 14.25rem
+  border-radius: .625rem;
 }
 
 ::root {
@@ -30,21 +29,20 @@ body {
 }
 
 .paragraph {
-  margin:28px auto 0;
-  width:256px;
+  margin:1.75rem auto 0;
+  width:16rem;
   font-family:'Outfit Regular';
   font-weight: normal;
-  font-size:15px;
-  line-height:19px;
+  font-size:.93rem;
+  line-height: 1.2rem;
   text-align: center;
 }
-
 .heading {
     text-align: center;
-    margin:28px auto 0;
-    width:288px;
+    margin:1.75rem auto 0;
+    width:18rem;
     font-family:'Outfit Bold';
     font-weight:normal;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 1.37rem
+    line-height: 1.75rem;
 }
