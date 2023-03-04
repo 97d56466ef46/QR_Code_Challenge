@@ -1,13 +1,16 @@
 body {
-  background-color:#F2F2F2;
+   display: flex;
+   justify-content:center;
+   background-color:#F2F2F2;
 }
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius:10px;
-    margin:9.5rem auto;
+    margin-top:9.5rem;
     width: 20rem;
     height: 32rem;
     background-color: white;
@@ -43,6 +46,6 @@ body {
     width:18rem;
     font-family:'Outfit Bold';
     font-weight:normal;
-    font-size: 1.37rem
+    font-size: 1.37rem;
     line-height: 1.75rem;
 }
